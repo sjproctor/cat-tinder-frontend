@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---GENERAL PAGE FORMATING--- */
+.page-body {
+  height: 110vh;
+  margin: 3rem;
+  text-align: center;
+}
+
+/* ---FOOTER--- */
+.footer-nav {
+  background-color: #FFFEF1;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+/* ---FORMS--- */
+form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+input {
+  text-align: center;
+}
+
+/* ---HEADER--- */
+.header-nav {
+  background-color: #EBE0D0;
+  justify-content: space-between;
+}
+.cat-logo {
+  padding-left: 30px;
+  width: 120px;
+}
+
+/* ---HOME--- */
+.raisins {
+  border: 3px solid black;
+  border-radius: 50%;
+  height: 250px;
+}
+
+/* ---INDEX--- */
+.index-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card.card-body {
+  background-color: #FFFEF1;
+  margin: 20px;
+  width: 300px;
+}
+.btn.btn-secondary {
+  background-color: #FF0080;
+  font-weight: bolder;
+}
+.btn.btn-secondary:hover {
+  background-color: white;
+  color: #FF0080;
+}
+
+/* ---NAV LINKS--- */
+.nav-link {
+  color: #FF0080 !important;
+  margin-bottom: 10px;
+}
+.nav-link:hover {
+  color: #000 !important;
+}
+.nav-item {
+  align-self: flex-end;
+}
+
+/* ---NOT FOUND--- */
+.cat-friend {
+  border: 1px solid black;
+  border-radius: 90px;
+  width: 200px;
+}
+
+/* ---SHOW--- */
+.card-show.card.card-body {
+  margin: 0 auto;
+}
