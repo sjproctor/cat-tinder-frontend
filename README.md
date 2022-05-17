@@ -1,46 +1,25 @@
 # Cat Tinder
+The purpose of this application is to expose students to their first decoupled full-stack application. The frontend is a React app that makes requests to a separate Rails API.
 
-- Added repo to project
-- Created branch protection
+## 🐱 Cat Tinder Project Description
+As a developer, I have been commissioned to create an application where a user can see cute cats looking for friends. As a user, I can see a list of cats. I can click on a cat and see more information about that cat. I can also add cats to the list of cats looking for friends. If my work is acceptable to my client, I may also be asked to add the ability to remove a cat from the list as well as edit cat information.
 
-### Frontend Structure
-- Added Reactstrap
-- Added react-router-dom
-- Added mockCats
-- Added Header and Footer component
-- Added pages with routes
-- Styles Header, Footer, NotFound components
+## ⚡️ Quick Start
+First clone the repository. Then within the root of the project directory, run:
 
-### Testing with Jest and Enzyme
-  $ git checkout -b test-coverage
-  Install enzyme
-  $ yarn add -D enzyme react-test-renderer enzyme-adapter-react-16
-  $ yarn test
+```bash
+yarn
+```
 
+## 🏁 Start the App
 
-As a developer, I have test coverage on my Header component.
-  - Created a test file for Header, Footer, NotFound, Home
-  - Added tests to above files and App.test.js
+```bash
+yarn start
+```
 
-# RESTful Routes
-  - For the data side of the app:
-    - index (read / get) - all the cats
-    - show (read / get) - one cat - needs an id as a param to show which cat
-    - create
-    - update
-    - delete
+## 🚗 Testing
+To run the existing Jest and Enzyme testing suite, run:
 
-  - For the user side of the app:
-    - new
-    - edit
-
-
-# Index
-  - Updated our route to CatIndex to be dynamic so we can pass props
-  - Mapped over this.props.cats in CatIndex to show all the cat's names
-  - Added testing for CatIndex to CatIndex.test.js
-
-# Show 
-  - Updated route to be dynamic to CatShow
-  - Displayed content of cat on CatShow page
-  - Added testing for CatShow to CatShow.test.js
+```bash
+yarn test
+```
